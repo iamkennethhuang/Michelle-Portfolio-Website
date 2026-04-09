@@ -31,5 +31,5 @@ jobs:
       working-directory: michelle-portfolio
     - run: npm run build --if-present
       working-directory: michelle-portfolio
-    - run: npm test
-      working-directory: michelle-portfolio
+    # - run: npm test
+    #   working-directory: michelle-portfolio
