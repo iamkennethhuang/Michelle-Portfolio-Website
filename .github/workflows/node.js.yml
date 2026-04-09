@@ -26,7 +26,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        path: michelle-portfolio
+        cache-dependency-path: michelle-portfolio/package-lock.json
     - run: npm ci
+      working-directory: michelle-portfolio
     - run: npm run build --if-present
+      working-directory: michelle-portfolio
     - run: npm test
+      working-directory: michelle-portfolio
