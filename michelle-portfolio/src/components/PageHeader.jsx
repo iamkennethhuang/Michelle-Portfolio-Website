@@ -11,7 +11,7 @@ import { Link as RouterLink } from 'react-router-dom';
  *           "Portfolio" + "About".
  */
 function PageHeader({ isHome = false }) {
-  const subtitle = isHome ? 'Copy Writer, Marketing Assistant' : 'Copy Writer';
+  const subtitle = 'Copy Writer, Marketing Assistant';
 
   const nameBlock = (
     <Box>
@@ -67,23 +67,6 @@ function PageHeader({ isHome = false }) {
       )}
 
       <Box sx={{ display: 'flex', gap: 3, mt: 0.25 }}>
-        {!isHome && (
-          <Link
-            component={RouterLink}
-            to="/"
-            underline="none"
-            sx={{
-              color: '#1c1c2e',
-              fontFamily: 'Georgia, "Times New Roman", serif',
-              fontWeight: 'normal',
-              fontSize: '1rem',
-              '&:hover': { opacity: 0.6 },
-              transition: 'opacity 0.2s',
-            }}
-          >
-            Portfolio
-          </Link>
-        )}
         <Link
           href="#about"
           underline="none"

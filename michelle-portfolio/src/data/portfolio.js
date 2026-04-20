@@ -1,5 +1,5 @@
 export const portfolioItems = [
-  { id: 1, alt: 'La Kole brand identity', src: '/La_Kole_brand_identity.png', label: 'La Kole' },
+  { id: 1, alt: 'La Kole brand identity', src: '/La_Kole_brand_identity.png', label: 'Lakole' },
   { id: 2, alt: 'Desk flatlay with pen and papers', src: '/Desk_flatlay_with_pen_and_papers.png', label: 'PICUS' },
   { id: 3, alt: 'Herbal tea product packaging', src: '/Herbal_tea_product_packaging.png', label: 'GRØN' },
   { id: 4, alt: 'Chili oil sauce in a bowl', src: '/Chili_oil_sauce_in_a_bowl.png', label: 'Kana Kitchen' },

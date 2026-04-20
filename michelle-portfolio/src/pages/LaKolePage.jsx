@@ -9,7 +9,7 @@ function LaKolePage() {
       <PageHeader />
 
       {/* Main Content */}
-      <Box sx={{ maxWidth: '680px', mx: 'auto', mb: { xs: 6, md: 10 } }}>
+      <Box sx={{ mx: 'auto', mb: { xs: 6, md: 10 } }}>
         {/* Intro subtitle */}
         <Typography
           sx={{

@@ -9,7 +9,7 @@ function HanabusaSoySaucePage() {
       <PageHeader />
 
       {/* Hero text */}
-      <Box sx={{ mb: { xs: 5, md: 7 } }}>
+      <Box sx={{ mb: { xs: 15, md: 20 }, mt: { xs: 10, md: 15 } }}>
         <Typography
           component="p"
           sx={{
@@ -62,14 +62,14 @@ function HanabusaSoySaucePage() {
           component="img"
           src="/Hanabusa_soy_sauce_bowl.png"
           alt="Soy sauce in a traditional Japanese ceramic bowl with Japanese calligraphy"
-          sx={{ width: '100%', height: 'auto', display: 'block' }}
+          sx={{ width: '85%', height: 'auto', display: 'block' }}
         />
 
-        <Box>
+        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', width: 'fit-content', mx: 'auto' }}>
           <Typography
             sx={{
               fontFamily: 'Georgia, "Times New Roman", serif',
-              fontWeight: 'normal',
+              fontWeight: 'bold',
               fontSize: { xs: '1.25rem', md: '1.4rem' },
               color: '#1c1c2e',
               textDecoration: 'underline',
@@ -85,9 +85,12 @@ function HanabusaSoySaucePage() {
               fontSize: { xs: '1rem', md: '1.1rem' },
               color: '#1c1c2e',
               letterSpacing: '0.06em',
+              fontWeight: 'bold',
+              width: '100%',
+              textAlign: 'center',
             }}
           >
-            ãƒãƒŠãƒ–ã‚µé†¤æ²¹
+            ハナブサ醤油
           </Typography>
         </Box>
       </Box>
@@ -120,7 +123,7 @@ function HanabusaSoySaucePage() {
           component="img"
           src="/Seeds_and_grains_in_hands.png"
           alt="Seeds and grains from the Shonai region used in Hanabusa Soy Sauce"
-          sx={{ width: '100%', height: 'auto', display: 'block' }}
+          sx={{ width: '90%', height: 'auto', display: 'block' }}
         />
       </Box>
 
@@ -138,7 +141,7 @@ function HanabusaSoySaucePage() {
           component="img"
           src="/Soy_sauce_bottle_with_ceramic_cup.png"
           alt="Hanabusa Soy Sauce bottles"
-          sx={{ width: '100%', height: 'auto', display: 'block' }}
+          sx={{ width: '80%', height: 'auto', display: 'block' }}
         />
 
         <Typography
